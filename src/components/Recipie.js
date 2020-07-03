@@ -13,7 +13,7 @@ const Recipie = ({title, calories, image, ingredients}) => {
                 ))}
             </ul>
             <p>Cal: {calories} </p>
-            <img src={image} alt="chicken"/>
+            <img className={style.image} src={image} alt="chicken"/>
         </div>
     );
 }
