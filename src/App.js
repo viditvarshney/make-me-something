@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const App = () => {
 
-  const app_id = "b0c88e89";
+  const app_id = process.env.APP_ID;
   const app_key = process.env.APP_KEY;
 
 
