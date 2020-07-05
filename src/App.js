@@ -1,11 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import Recipie from "./components/Recipie";
 import './App.css';
+require('dotenv').config();
 
 const App = () => {
 
-  const APP_ID = "b0c88e89";
-  const APP_KEY = "8a48ee090f0748e560af55b87c10ba41";
+  const app_id = "b0c88e89";
+  const app_key = process.env.APP_KEY;
 
 
   const [recipies, setRecipes] = useState([]);
@@ -19,7 +20,7 @@ const App = () => {
 
   const getRecipies = async () => {
     const response = await fetch(
-      `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`
+      `https://api.edamam.com/search?q=${query}&app_id=${app_id}&app_key=${app_key}`
       );
     const data = await response.json();
     setRecipes(data.hits);
