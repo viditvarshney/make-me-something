@@ -5,8 +5,8 @@ require('dotenv').config();
 
 const App = () => {
 
-  const app_id = process.env.APP_ID;
-  const app_key = process.env.APP_KEY;
+  const app_id = process.env.REACT_APP_API_ID;
+  const app_key = process.env.REACT_APP_API_KEY;
 
 
   const [recipies, setRecipes] = useState([]);
