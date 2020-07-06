@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/make-me-something/static/css/main.146c195d.chunk.css",
-    "main.js": "/make-me-something/static/js/main.c0f80563.chunk.js",
-    "main.js.map": "/make-me-something/static/js/main.c0f80563.chunk.js.map",
+    "main.js": "/make-me-something/static/js/main.0784d712.chunk.js",
+    "main.js.map": "/make-me-something/static/js/main.0784d712.chunk.js.map",
     "runtime-main.js": "/make-me-something/static/js/runtime-main.fd9ffc10.js",
     "runtime-main.js.map": "/make-me-something/static/js/runtime-main.fd9ffc10.js.map",
-    "static/js/2.e860f0c7.chunk.js": "/make-me-something/static/js/2.e860f0c7.chunk.js",
-    "static/js/2.e860f0c7.chunk.js.map": "/make-me-something/static/js/2.e860f0c7.chunk.js.map",
+    "static/js/2.b0acfdc8.chunk.js": "/make-me-something/static/js/2.b0acfdc8.chunk.js",
+    "static/js/2.b0acfdc8.chunk.js.map": "/make-me-something/static/js/2.b0acfdc8.chunk.js.map",
     "index.html": "/make-me-something/index.html",
-    "precache-manifest.66766cf8555611d2f3e080443e61f5bb.js": "/make-me-something/precache-manifest.66766cf8555611d2f3e080443e61f5bb.js",
+    "precache-manifest.2b8148b7e0b7e2b68dd5d98e6ce13450.js": "/make-me-something/precache-manifest.2b8148b7e0b7e2b68dd5d98e6ce13450.js",
     "service-worker.js": "/make-me-something/service-worker.js",
     "static/css/main.146c195d.chunk.css.map": "/make-me-something/static/css/main.146c195d.chunk.css.map",
-    "static/js/2.e860f0c7.chunk.js.LICENSE.txt": "/make-me-something/static/js/2.e860f0c7.chunk.js.LICENSE.txt"
+    "static/js/2.b0acfdc8.chunk.js.LICENSE.txt": "/make-me-something/static/js/2.b0acfdc8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fd9ffc10.js",
-    "static/js/2.e860f0c7.chunk.js",
+    "static/js/2.b0acfdc8.chunk.js",
     "static/css/main.146c195d.chunk.css",
-    "static/js/main.c0f80563.chunk.js"
+    "static/js/main.0784d712.chunk.js"
   ]
 }
